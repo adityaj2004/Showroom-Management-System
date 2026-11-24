@@ -1,0 +1,28 @@
+.env
+*.db
+*.db-shm
+*.db-wal
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+.DS_Store
+
+# Environment variables
+.env.*
+!.env.example
+
+# Frontend dependencies
+node_modules/
+
+# Build files
+dist/
+build/
+coverage/
+
+# Logs
+*.log
+
+# Python virtual environments
+.venv/
+venv/
